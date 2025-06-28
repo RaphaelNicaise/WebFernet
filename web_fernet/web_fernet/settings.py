@@ -39,7 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # APPS DE TERCEROS
     'rest_framework',
+    'drf_yasg', # Swagger para Documentacion de API
+    
     # APPS
     'api',
     'carritos',

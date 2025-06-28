@@ -20,10 +20,17 @@ from . import views
 from django.conf import settings
 from django.conf.urls.static import static
 
+from .swagger import schema_view
+
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('api/', include('api.urls')),
+    
+    #swagger
+    path('api/swagger/', schema_view, name='swagger-ui'),
 ]
 
 if settings.DEBUG:
