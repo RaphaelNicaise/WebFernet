@@ -1,0 +1,3 @@
+- Implementacion API de MercadoPago 
+- Implementacion API de envios (Andreani Seguramente)
+- Implementar envio de Mails
